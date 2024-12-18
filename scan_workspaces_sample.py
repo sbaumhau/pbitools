@@ -4,8 +4,8 @@ import time
 import pprint
 
 # Parameters section
-CLIENT_ID = "61f36f8a-52a6-4762-ab4b-c31a6b8c438d"
-TENANT_ID = "b6024987-88e6-4e43-b5b6-676c81d30279"
+CLIENT_ID = "61f3****-*********************"
+TENANT_ID = "b602****-*********************"
 
 
 
@@ -103,7 +103,7 @@ access_token = get_access_token_interactive()
 list_all_workspaces(access_token)
 
 # Pick one or several to scan (manually enter an ID from the list returned above)
-workspaces_to_scan = ["6f54fede-d2b3-466d-be87-ebd54790a40e"]
+workspaces_to_scan = ["6f54fede-********************"]
 
 # start the scan
 scan_id = start_scan_and_get_scan_id(access_token, workspaces_to_scan)
